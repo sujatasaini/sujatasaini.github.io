@@ -17,8 +17,6 @@ Use it for:
 
 And many more, be creative with it!
 
-<img src = "./src/image1.PNG">
-
 #### Demo: 
 
 ### Technologies Used
