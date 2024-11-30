@@ -952,7 +952,25 @@
                      191-0065, Tokyo, Japan
 						   <span></span>
 					   </p>
-
+   <!-- Google Calendar Appointment Scheduling -->
+   <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+   <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+   <div class="calendar-button-container" style="text-align: left; margin-top: 10px;">
+       <script>
+           (function () {
+               var target = document.currentScript;
+               window.addEventListener('load', function () {
+                   calendar.schedulingButton.load({
+                       url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2OuW5dbZcwzBldQVu_dtCZ2ei3_MlM8fvSXO23Hn6XsR0kXMdYwwH9pCz63Civv_2oVs5vBhhy?gv=true',
+                       color: '#616161',
+                       label: 'Book an appointment',
+                       target,
+                   });
+               });
+           })();
+       </script>
+   </div>
+   <!-- End Google Calendar Appointment Scheduling -->
 				   </div>
 
       </div>
